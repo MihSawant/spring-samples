@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="creating-spring-beans" />
         <module name="creating-spring-beans-comp" />
+        <module name="multiple-same-type-beans" />
       </profile>
     </annotationProcessing>
   </component>

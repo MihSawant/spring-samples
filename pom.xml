@@ -11,6 +11,7 @@
     <modules>
         <module>creating-spring-beans</module>
         <module>creating-spring-beans-comp</module>
+        <module>multiple-same-type-beans</module>
     </modules>
 
     <properties>
