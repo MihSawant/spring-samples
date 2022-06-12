@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="multiple-same-type-beans" />
+        <module name="creating-beans-programatically" />
         <module name="creating-spring-beans" />
         <module name="creating-spring-beans-comp" />
         <module name="multiple-beans-default" />
