@@ -16,6 +16,7 @@
         <module name="multiple-beans-default" />
         <module name="multiple-same-type-beans" />
         <module name="circular-dependency-problem" />
+        <module name="abstractions-using-framework" />
         <module name="wiring-beans-via-method-param" />
       </profile>
     </annotationProcessing>
