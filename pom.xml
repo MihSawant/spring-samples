@@ -15,6 +15,7 @@
         <module>multiple-beans-default</module>
         <module>creating-beans-programatically</module>
         <module>wiring-beans</module>
+        <module>wiring-beans-via-method-param</module>
     </modules>
 
     <properties>
