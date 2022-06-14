@@ -9,6 +9,7 @@
         <module name="wiring-beans" />
         <module name="creating-beans-programatically" />
         <module name="creating-spring-beans" />
+        <module name="wiring-beans-field-injection" />
         <module name="creating-spring-beans-comp" />
         <module name="multiple-beans-default" />
         <module name="multiple-same-type-beans" />
