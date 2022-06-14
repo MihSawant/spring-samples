@@ -14,6 +14,7 @@
         <module name="creating-spring-beans-comp" />
         <module name="multiple-beans-default" />
         <module name="multiple-same-type-beans" />
+        <module name="circular-dependency-problem" />
         <module name="wiring-beans-via-method-param" />
       </profile>
     </annotationProcessing>

@@ -18,6 +18,7 @@
         <module>wiring-beans-via-method-param</module>
         <module>wiring-beans-field-injection</module>
         <module>auto-wiring-beans-constructor-injection</module>
+        <module>circular-dependency-problem</module>
     </modules>
 
     <properties>
