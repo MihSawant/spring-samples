@@ -19,6 +19,7 @@
         <module>wiring-beans-field-injection</module>
         <module>auto-wiring-beans-constructor-injection</module>
         <module>circular-dependency-problem</module>
+        <module>abstractions-without-using-framework</module>
     </modules>
 
     <properties>
