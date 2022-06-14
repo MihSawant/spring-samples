@@ -1,6 +1,7 @@
 package proxies;
 
 import entity.Bill;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 /*
@@ -14,6 +15,7 @@ import org.springframework.stereotype.Component;
 
  */
 @Component
+@Qualifier("excel")
 public class ExcelReportGenerator implements ReportGenerator {
     @Override
     public void generateReport(Bill bill) {

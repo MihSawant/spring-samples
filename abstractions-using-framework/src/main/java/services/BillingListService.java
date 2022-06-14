@@ -31,7 +31,7 @@ public class BillingListService {
         annotation when in the parameters of Constructor and the name of
         the bean.
      */
-    public BillingListService(BillRepository billRepository, @Qualifier("pdfReportGenerator")
+    public BillingListService(BillRepository billRepository, @Qualifier("pdf")
                                 ReportGenerator reportGenerator) {
         this.billRepository = billRepository;
         this.reportGenerator = reportGenerator;

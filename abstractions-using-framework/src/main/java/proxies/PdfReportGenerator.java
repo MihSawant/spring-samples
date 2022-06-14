@@ -1,6 +1,7 @@
 package proxies;
 
 import entity.Bill;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
@@ -15,6 +16,7 @@ import org.springframework.stereotype.Component;
     specific requirements.
  */
 //@Primary
+@Qualifier("pdf")
 public class PdfReportGenerator implements ReportGenerator{
     @Override
     public void generateReport(Bill bill) {
