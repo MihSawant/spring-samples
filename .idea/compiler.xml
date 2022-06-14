@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="wiring-beans" />
         <module name="creating-beans-programatically" />
+        <module name="auto-wiring-beans-constructor-injection" />
         <module name="creating-spring-beans" />
         <module name="wiring-beans-field-injection" />
         <module name="creating-spring-beans-comp" />

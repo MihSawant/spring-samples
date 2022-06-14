@@ -17,6 +17,7 @@
         <module>wiring-beans</module>
         <module>wiring-beans-via-method-param</module>
         <module>wiring-beans-field-injection</module>
+        <module>auto-wiring-beans-constructor-injection</module>
     </modules>
 
     <properties>
