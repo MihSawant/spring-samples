@@ -6,18 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="wiring-beans" />
         <module name="abstractions-without-using-framework" />
-        <module name="creating-beans-programatically" />
-        <module name="auto-wiring-beans-constructor-injection" />
         <module name="creating-spring-beans" />
         <module name="wiring-beans-field-injection" />
-        <module name="creating-spring-beans-comp" />
-        <module name="multiple-beans-default" />
         <module name="multiple-same-type-beans" />
         <module name="circular-dependency-problem" />
         <module name="abstractions-using-framework" />
         <module name="wiring-beans-via-method-param" />
+        <module name="wiring-beans" />
+        <module name="creating-beans-programatically" />
+        <module name="auto-wiring-beans-constructor-injection" />
+        <module name="bean-scope-singleton" />
+        <module name="creating-spring-beans-comp" />
+        <module name="multiple-beans-default" />
       </profile>
     </annotationProcessing>
   </component>

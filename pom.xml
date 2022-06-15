@@ -21,6 +21,7 @@
         <module>circular-dependency-problem</module>
         <module>abstractions-without-using-framework</module>
         <module>abstractions-using-framework</module>
+        <module>bean-scope-singleton</module>
     </modules>
 
     <properties>
