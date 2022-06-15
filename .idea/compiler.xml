@@ -12,6 +12,7 @@
         <module name="multiple-same-type-beans" />
         <module name="circular-dependency-problem" />
         <module name="abstractions-using-framework" />
+        <module name="bean-scope-prototype" />
         <module name="wiring-beans-via-method-param" />
         <module name="wiring-beans" />
         <module name="creating-beans-programatically" />

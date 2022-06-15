@@ -22,6 +22,7 @@
         <module>abstractions-without-using-framework</module>
         <module>abstractions-using-framework</module>
         <module>bean-scope-singleton</module>
+        <module>bean-scope-prototype</module>
     </modules>
 
     <properties>
