@@ -23,10 +23,9 @@ public class LoggingAspect {
         first the dependency spring-aspects and then to use it follow
         these steps:
         1. Mark the Configuration with @EnableAspectJAutoProxy
-        2. Create a class and mark it with @Aspect annotation and @Bean,
+        2. Create a class and mark it with @Aspect annotation
            and remember that @Aspect is not a stereotype annotation so
-           we will either have to create bean manually using @Bean
-           in config or mark it with stereotype annotation and add to the
+           mark it with stereotype annotation like Component, Service and add to the
            context. Because Spring will manage it, and to do so it needs to
            manage and have the dependency and bean within its context.
         3. Advice which is the @Around annotation and then use

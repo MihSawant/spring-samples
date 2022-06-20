@@ -16,6 +16,7 @@
         <module name="wiring-beans-via-method-param" />
         <module name="wiring-beans" />
         <module name="creating-beans-programatically" />
+        <module name="spring-aspects-parameters" />
         <module name="auto-wiring-beans-constructor-injection" />
         <module name="bean-scope-singleton" />
         <module name="creating-spring-beans-comp" />
