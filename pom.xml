@@ -23,6 +23,7 @@
         <module>abstractions-using-framework</module>
         <module>bean-scope-singleton</module>
         <module>bean-scope-prototype</module>
+        <module>spring-creating-aspects</module>
     </modules>
 
     <properties>
