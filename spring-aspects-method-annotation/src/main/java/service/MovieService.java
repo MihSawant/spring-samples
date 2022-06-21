@@ -23,4 +23,8 @@ public class MovieService {
         movie.setImdbRating(rating);
         logger.info(movie.getName()+" Movie Rated: "+movie.getImdbRating());
     }
+
+    public void torrentDownload(Movie movie){
+        throw new RuntimeException("Sorry, Not Available");
+    }
 }

@@ -1,6 +1,7 @@
 package service;
 
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.stereotype.Component;
@@ -45,5 +46,6 @@ public class LoggingAspect {
         logger.info("Method Returned: "+value);
         return 9.7;
     }
+
 
 }

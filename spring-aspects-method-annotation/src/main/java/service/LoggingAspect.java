@@ -1,6 +1,7 @@
 package service;
 
 import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.springframework.stereotype.Component;
@@ -35,8 +36,14 @@ public class LoggingAspect {
     public void log(ProceedingJoinPoint joinPoint) throws Throwable {
 
         Object[] arguments = joinPoint.getArgs();
-        logger.info("Args: "+ Arrays.asList(arguments));
+        logger.info("Args: " + Arrays.asList(arguments));
 
         joinPoint.proceed();
+    }
+
+    @AfterThrowing(value = "execution(* service.MovieService.torrentDownload(..))")
+    public void logException() {
+        logger.info("Downloading Torrent's is Illegal");
+        logger.info("As a Punishment, You can go to Jail...");
     }
 }

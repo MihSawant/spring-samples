@@ -10,14 +10,13 @@ public class Main {
         var ct = new AnnotationConfigApplicationContext(ProjectConfig.class);
 
         Movie movie = new Movie();
-        movie.setName("Jai Bhim");
-        movie.setImdbRating(8.6);
+        movie.setName("Avengers EndGame");
+        movie.setImdbRating(8.4);
 
         MovieService service = ct.getBean(MovieService.class);
 
         service.bingeWatching(movie);
-        service.rating(movie, 9.1);
-        service.downloading(movie);
+        service.torrentDownload(movie);
 
     }
 }
