@@ -25,6 +25,7 @@
         <module>bean-scope-prototype</module>
         <module>spring-creating-aspects</module>
         <module>spring-aspects-parameters</module>
+        <module>spring-aspects-method-annotation</module>
     </modules>
 
     <properties>

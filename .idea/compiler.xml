@@ -9,6 +9,7 @@
         <module name="abstractions-without-using-framework" />
         <module name="creating-spring-beans" />
         <module name="wiring-beans-field-injection" />
+        <module name="spring-aspects-method-annotation" />
         <module name="multiple-same-type-beans" />
         <module name="circular-dependency-problem" />
         <module name="abstractions-using-framework" />
