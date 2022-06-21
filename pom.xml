@@ -26,6 +26,7 @@
         <module>spring-creating-aspects</module>
         <module>spring-aspects-parameters</module>
         <module>spring-aspects-method-annotation</module>
+        <module>spring-aspects-chain-execution</module>
     </modules>
 
     <properties>

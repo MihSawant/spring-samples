@@ -22,6 +22,7 @@
         <module name="bean-scope-singleton" />
         <module name="creating-spring-beans-comp" />
         <module name="multiple-beans-default" />
+        <module name="spring-aspects-chain-execution" />
         <module name="spring-creating-aspects" />
       </profile>
     </annotationProcessing>
